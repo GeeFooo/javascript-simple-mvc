@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple To Do List</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+	<link href="https://unpkg.com/ionicons@4.5.10-1/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="fullscreen-bg">
+    <video loop muted autoplay>
+ 
+        <source src="BG.mp4" type="video/mp4">
+
+    </video>
+	</div>
+
+	<h1>Simple To-Do-List</h1>
+	<div id="todo">
+		<input id="add-item" type="text" name="text" placeholder="Add an item..." onkeypress="view.addItem(event)">
+		<ul id="list"></ul>
+
+	</div>
+	<div class="footer">Simple MVC Example.</div>
+
+
+	<script type="text/javascript" src="./scripts.js"></script>
+</body>
+</html>
